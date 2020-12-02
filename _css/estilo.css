@@ -6,6 +6,7 @@
 }
 
 body {
+    font-family: Arial, Helvetica, sans-serif;
 	background-color: #dddddd;
 	color: rgba(0, 0, 0, 1);
 }
@@ -23,10 +24,19 @@ p {
 	text-indent: 50px;
 }
 
+a {
+    color: #606060;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 header#cabecalho img#icone {
-    position: absolute;
-    left: 780px;
-    top: 70px;
+    position: relative;
+    left: 700px;
+    top: -45px;
 }
 
 header#cabecalho {
@@ -91,9 +101,9 @@ nav#menu {
 nav#menu ul {
     list-style: none;
     text-transform: uppercase;
-    position: absolute;
-    top: -20px;
-    left: 300px;
+    position: relative;
+    top: -250px;
+    left: 290px;
 }
 
 nav#menu li {
@@ -131,10 +141,65 @@ section#corpo {
     padding-right: 20px;
 }
 
+article#noticia-principal h2{
+    font-size: 13pt;
+    color: #606060;
+    background-color: #dddddd;
+    padding: : 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+header#cabecalho-artigo h1{
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 20px;
+    color: #606060;
+    margin-bottom: 0px;
+}
+
+header#cabecalho-artigo h2{
+    font-size: 13px;
+    color:#cecece;
+    background-color: #ffffff;
+    margin: 0px;
+    margin-top: 0px;
+        
+}
+
+header#cabecalho-artigo h3{
+    font-size: 12px;
+    color: #606060;
+    
+}
+
+/* Colocar o h3 do cabecalho-artigo a direita */
+.direita {
+    text-align: right;
+}
+
 aside#lateral {
     display: block;
     width: 350px;
     float: right;
+    background-color: #dddddd;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0,.5);
+
+}
+
+aside#lateral h1{
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-top: 0px;
+}
+
+aside#lateral h2{
+    background-color: #606060;
+    font-size: 13pt;
+    color: #ffffff;
+    padding: 5px;
+
 
 }
 
@@ -167,6 +232,16 @@ table#tabelaspec caption {
     color: #888888;
     font-size: 13pt;
     font-weight: bold;
+}
+
+table#tabelaspec caption span {
+   display: block;
+   float:right;
+   color: #000000;
+   font-size: 8pt;
+   margin-top: 10px;
+
+
 }
 
 footer#rodape {
