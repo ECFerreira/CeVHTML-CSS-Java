@@ -272,5 +272,19 @@ footer#rodape a:hover {
     }
 
 
+    video#filme01 {
+        display: block;
+        position: relative;
+        left: 0px;
+        top: 0px;
+        width: 500px;
+    }
 
+    video#filme02 {
+        display: block;
+        position: relative;
+        left: 0px;
+        top: 0px;
+        width: 350px;
+    }
 
