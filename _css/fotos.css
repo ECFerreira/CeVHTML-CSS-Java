@@ -22,6 +22,7 @@ ul#algum-fotos li {
     padding: 5px;
     -webkit-transition: all .4s ease-in;
 }
+
 ul#algum-fotos li:hover {
     -webkit-transform: scale(1.5);
 }

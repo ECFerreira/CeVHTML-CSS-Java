@@ -43,7 +43,6 @@ header#cabecalho {
     border-bottom: 1px #606060 solid;
     height: 150px;
     background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px;
-
 }
 
 header#cabecalho h1 {
@@ -126,6 +125,7 @@ nav#menu a {
     color: #000000;
     text-decoration: none;
 }
+
 nav#menu a:hover {
     color: #ffffff;
     text-decoration: underline;
@@ -162,13 +162,11 @@ header#cabecalho-artigo h2{
     background-color: #ffffff;
     margin: 0px;
     margin-top: 0px;
-        
 }
 
 header#cabecalho-artigo h3{
     font-size: 12px;
     color: #606060;
-    
 }
 
 /* Colocar o h3 do cabecalho-artigo a direita */
@@ -184,7 +182,6 @@ aside#lateral {
     padding: 10px;
     margin-top: 10px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0,.5);
-
 }
 
 aside#lateral h1{
@@ -199,8 +196,6 @@ aside#lateral h2{
     font-size: 13pt;
     color: #ffffff;
     padding: 5px;
-
-
 }
 
 table#tabelaspec {
@@ -240,14 +235,11 @@ table#tabelaspec caption span {
    color: #000000;
    font-size: 8pt;
    margin-top: 10px;
-
-
 }
 
 footer#rodape {
     clear: both;
     border-top: 1px solid #606060;
-       
 }
 
 footer#rodape p {
@@ -269,22 +261,20 @@ footer#rodape a:hover {
     transition: background-color 1s;
     color: #ffffff;
     text-decoration: underline;
-    }
+}
 
+video#filme01 {
+    display: block;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 500px;
+}
 
-    video#filme01 {
-        display: block;
-        position: relative;
-        left: 0px;
-        top: 0px;
-        width: 500px;
-    }
-
-    video#filme02 {
-        display: block;
-        position: relative;
-        left: 0px;
-        top: 0px;
-        width: 350px;
-    }
-
+video#filme02 {
+    display: block;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 350px;
+}
